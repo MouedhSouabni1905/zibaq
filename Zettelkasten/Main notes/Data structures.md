@@ -1,0 +1,3 @@
+**Tags:** [[Programming]]
+
+- **Gap buffers:** It's a buffer of memory that counts as a gap, and whenever we want to insert characters in the middle of text in an editor we just move the gap to the place we want to insert in, the time delay is hidden by the time the person takes to move the cursor. This avoids having to move the whole document to insert a character one at a time, or using a linked list which stores addresses and takes up more memory.

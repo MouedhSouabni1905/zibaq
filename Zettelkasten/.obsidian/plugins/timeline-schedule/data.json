@@ -1,0 +1,10 @@
+{
+  "blockVariableName": "schedule",
+  "startBlockName": "Start",
+  "endBlockName": "Finish",
+  "enablePrettyPreview": true,
+  "enableCodeblockTextAutofill": true,
+  "startDateFormat": "MM/DD/YY - hh:mm A",
+  "endDateFormat": "MM/DD/YY - hh:mm A",
+  "eventDateFormat": "h:mm A"
+}
