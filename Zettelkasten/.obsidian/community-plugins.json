@@ -2,12 +2,11 @@
   "obsidian-kanban",
   "obsidian-latex-suite",
   "dataview",
-  "obsidian-excalidraw-plugin",
   "templater-obsidian",
   "widgets",
   "timeline-schedule",
   "remotely-save",
   "obsidian-timeline",
-  "any-block",
-  "obsidian-discordrpc"
+  "obsidian-discordrpc",
+  "quickadd"
 ]

@@ -6,6 +6,7 @@
 - **Operator overloading:** in the .h file `T & operator=(T & t);` and in the .cpp file `T & T::operator=(const T & t) {}` and in that function we first delete the memory taken by the object in case there's an array and copy the parameter object's attributes to the current object's attributes (`this`). 
 - Copy constructor: in the .h file `T(const T & t);` and in the .cpp file `T::T(const T & t) : [initialization of non-dynamically allocatable attributes] { [initialization of allocatable attributes like arrays] }`
 - When copying an array, you dynamically allocate it (declare it with a length based on variables) and then memcpy it to the new object.
+- Whenever we use composition on an object to put it as a member of another object, we have to free it (without destroying it) when we destroy the object it is a member of. To do that, it must first be composed into the object using a pointer not a reference or the object itself
 
 # Particularities in c++
 - A child object inheriting from its parent can use all of its parent's methods, even the constructor even though it has a different name
@@ -16,7 +17,9 @@
 - Getters should return references (`T & getT() const {}`)
 - An array of objects for example can be anything except an array of references to the objects, like the objects themselves or pointers to the objects, const or not const doesn't matter
 - When doing aggregation, the attribute is either a pointer or a reference to the object, as opposed to composition where the object itself is an attribute
-- 
+- Operator overloading syntax: `T & T::operator=(const T & t)`
+- Copy constructor syntax: `T::T(const T & t)`
+- In the .h file we just remove the `T::` prefix
 
 # Exceptions
 
@@ -40,3 +43,8 @@ And inside the function called in the try block:
 - In the .cpp file: `TYPE ObjectName::function(args,...) {}` to define methods on that object, but you don't need to specify the namespace (the `ObjectName::` part) in the .h file
 - Initializing an argument to a default value in the constructor's declaration (in the header file) makes it so that if no value is given, the constructor takes the default value
 - `stdin.ignore(256, '\n');` after using stdin makes sure you can utilize the entry as a pure int
+- `static` keyword indicates that the variable is class-global, meaning belongs to all instances of the class
+- With operator overloading where we overload the = sign, we first empty the `this` object, then copy the contents of the argument into it, then we return `*this`
+- To create a template class we place this line `template <class T>` before the class declaration in the header file.
+- Template methods are implemented in the header file, and are all preceded by the line mentioned in the previous point, and in vectors for example we replace whatever should indicate the type with `T`
+- The `inline` keyword allows us to define methods inside of the header file

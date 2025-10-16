@@ -1,0 +1,13 @@
+## Powershell
+- Powershell is an Object-Oriented scripting language
+- `[type]$variableName = ...` is the syntax used to define a typed variable. `$variableName = ...` can still be used to define an untyped variable
+- `Add-Type -TypeDefinition @"..."@` inside a powershell script in lieu of the three dots is a command used to define a new Cmdlet
+- The syntax is very similar to Java OOP, with some differences (and each instruction ends with a semi-colon just like java)
+- eg. `if` statements aren't followed by curly braces to delimit a code block, but rather the indented code block on the next line after the condition is executed (of course, semi-colon isn't needed at the end of the condition's expression which is enclosed in parentheses)
+- Functions is ps scripts are prefixed with the `function` keyword, and parentheses are only needed if the function actually takes arguments
+- Functions can return things with the `return` keyword, and variables are accessed using the same name they were defined with, including the dollar sign
+- `param(...)` is used to declare parameters passed to the script or the function it is enclosed in
+- The pipe operator can be used inside expressions and the return value of the expression can be stored in a variable or returned at the end of a function
+- A structure with different keys and values can be defined this way `@{"..." = ...}` and different elements are separated by new-lines
+- Handling exceptions is done using a `try {} catch {} finally {}` block, and throwing them is simple, similar to the Java/C++ syntax
+- 
