@@ -6,6 +6,8 @@ kanban-plugin: board
 
 ## Ideas
 
+- [ ] Neovim plugin that fully replaces my obsidian system to centralize it
+- [ ] Lua plugin for templates/quickadd and querying
 - [ ] A full program written in nix that reads nix files and outputs documentation based on a special syntax (mainly for describing packages that I have installed)
 - [ ] A bash script that finds all includes in a folder of C files and prints a dependence tree
 - [ ] Egyptian PL Statistics dashboard all in python and the web interface in flask

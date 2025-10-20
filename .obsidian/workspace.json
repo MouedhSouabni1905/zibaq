@@ -4,28 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "760470cdbb51cb5a",
+        "id": "1e7a3af610ffff60",
         "type": "tabs",
         "children": [
           {
-            "id": "a61c4d9a986e3630",
+            "id": "89f4eac8bf049881",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Index/Projects.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Projects"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -173,22 +162,26 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false,
-      "widgets:Add widget": false,
-      "remotely-save:Remotely Save": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "a61c4d9a986e3630",
+  "active": "d355edd39993efcd",
   "lastOpenFiles": [
-    "Excalidraw/Monads.md",
+    "Personal",
+    "webhook.site.md",
+    "Personal/الإدمان.md",
+    "Main notes/LePotato board setup.md",
+    "Main notes/Making ISOs and booting.md",
+    "Main notes/Lua.md",
+    "Index/Projects.md",
+    "Resources/addiction.png",
+    "View.base",
     "Index/Book links.md",
     "Index/Books.md",
-    "Index/Projects.md",
+    "Mini notes/Untitled.md",
+    "Templates",
+    "Excalidraw/Monads.md",
     "Index/Tags list.md",
-    "Resources/addiction.png",
     "Mini notes/KeyboardInterrupt Catch.md",
     "Mini notes and thoughts/Command line tricks.md",
     "Mini notes/NIC Promiscuity.md",
@@ -198,7 +191,6 @@
     "Mini notes/منهجية أخذ المفيد بدون تقليد.md",
     "Mini notes and thoughts/مجتمع الإشباع السريع.md",
     "Mini notes and thoughts/Who to believe.md",
-    "View.base",
     "Untitled 1.base",
     "Untitled.base",
     "Main notes/Probabilities.md",
@@ -206,13 +198,6 @@
     "Main notes/C++.md",
     "Main notes/Windows Cybersec.md",
     "Main notes/Websec.md",
-    "Main notes/C lang.md",
-    "Main notes/Web Servers.md",
-    "Main notes/Emad Rashad psychology notes.md",
-    "Main notes/Metasploit.md",
-    "Main notes/Logic and theorem proving.md",
-    "Main notes/Kotlin for android.md",
-    "Main notes/Kernel security.md",
     "Resources/Unconfirmed 781653.crdownload",
     "Resources/java-app-showcase.mp4",
     "Resources/Recording 2025-06-19 153843.mp4",
@@ -228,7 +213,6 @@
     "Resources/maslow-needs3.webp",
     "Resources/maslow-needs3.webp.crdownload",
     "Resources/maslow-hierachy-of-needs.webp.crdownload",
-    "Books",
     "Untitled.canvas"
   ]
 }

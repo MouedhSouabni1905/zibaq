@@ -2,7 +2,7 @@
   "choices": [],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPath": "Templates",
   "announceUpdates": true,
   "version": "2.6.0",
   "globalVariables": {},

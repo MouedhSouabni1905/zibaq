@@ -1,0 +1,14 @@
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.name.startsWith("a")
+    order:
+      - file.name
+      - formula.Untitled
+  - type: cards
+    name: View
+    cardSize: 230
