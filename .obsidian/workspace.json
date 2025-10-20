@@ -11,10 +11,14 @@
             "id": "89f4eac8bf049881",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Main notes/LePotato board setup.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "LePotato board setup"
             }
           }
         ]
@@ -156,6 +160,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "widgets:Add widget": false,
+      "remotely-save:Remotely Save": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -165,7 +173,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d355edd39993efcd",
+  "active": "89f4eac8bf049881",
   "lastOpenFiles": [
     "Personal",
     "webhook.site.md",
