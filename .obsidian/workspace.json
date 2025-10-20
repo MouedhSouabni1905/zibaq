@@ -175,6 +175,11 @@
   },
   "active": "89f4eac8bf049881",
   "lastOpenFiles": [
+    "Index/Tags list.md",
+    "Index/Projects.md",
+    "Index/Books.md",
+    "Index/Book links.md",
+    "Index",
     "Personal/Emad Rashad psychology notes.md",
     "Personal",
     "webhook.site.md",
@@ -182,15 +187,11 @@
     "Main notes/LePotato board setup.md",
     "Main notes/Making ISOs and booting.md",
     "Main notes/Lua.md",
-    "Index/Projects.md",
     "Resources/addiction.png",
     "View.base",
-    "Index/Book links.md",
-    "Index/Books.md",
     "Mini notes/Untitled.md",
     "Templates",
     "Excalidraw/Monads.md",
-    "Index/Tags list.md",
     "Mini notes/KeyboardInterrupt Catch.md",
     "Mini notes and thoughts/Command line tricks.md",
     "Mini notes/NIC Promiscuity.md",
@@ -206,7 +207,6 @@
     "Main notes/Nix.md",
     "Main notes/C++.md",
     "Main notes/Windows Cybersec.md",
-    "Main notes/Websec.md",
     "Resources/Unconfirmed 781653.crdownload",
     "Resources/java-app-showcase.mp4",
     "Resources/Recording 2025-06-19 153843.mp4",
@@ -220,7 +220,6 @@
     "Resources/how-to-center-a-div.png",
     "Resources/Screenshot 2025-09-12 211336.png",
     "Resources/maslow-needs3.webp",
-    "Resources/maslow-needs3.webp.crdownload",
     "Untitled.canvas"
   ]
 }
