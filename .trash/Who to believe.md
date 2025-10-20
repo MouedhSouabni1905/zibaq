@@ -1,1 +1,0 @@
-When listening to people testifying about history, who are we supposed to believe? Especially when we don't have clues as to the real story?
