@@ -37,14 +37,12 @@ And inside the function called in the try block:
 # Remarks
 
 - `const` keyword is used on methods that shouldn't modify the object
-- It's **not** used on private attributes that are not class constants
 - Class constants are declared in the header file but initialized in the .cpp file (can also be initialized in the header file), like so `static const TYPE NAME;`
 - `constexpr` keyword makes it so that constants are evaluated at compile time rather than runtime, optimizing the program
-- In the .cpp file: `TYPE ObjectName::function(args,...) {}` to define methods on that object, but you don't need to specify the namespace (the `ObjectName::` part) in the .h file
+- In the .cpp file: `TYPE ObjectName::function(args,...) {}` to define methods on that object (except constructor), but you don't need to specify the namespace (the `ObjectName::` part) in the .h file
 - Initializing an argument to a default value in the constructor's declaration (in the header file) makes it so that if no value is given, the constructor takes the default value
 - `stdin.ignore(256, '\n');` after using stdin makes sure you can utilize the entry as a pure int
 - `static` keyword indicates that the variable is class-global, meaning belongs to all instances of the class
 - With operator overloading where we overload the = sign, we first empty the `this` object, then copy the contents of the argument into it, then we return `*this`
 - To create a template class we place this line `template <class T>` before the class declaration in the header file.
 - Template methods are implemented in the header file, and are all preceded by the line mentioned in the previous point, and in vectors for example we replace whatever should indicate the type with `T`
-- The `inline` keyword allows us to define methods inside of the header file
