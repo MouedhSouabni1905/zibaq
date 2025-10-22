@@ -16,7 +16,6 @@
 - When an object is dynamically allocated it can be passed as a reference directly (reference as in alias not pointer) without having to do any more work
 - Getters should return references (`T & getT() const {}`)
 - An array of objects for example can be anything except an array of references to the objects, like the objects themselves or pointers to the objects, const or not const doesn't matter
-- When doing aggregation, the attribute is either a pointer or a reference to the object, as opposed to composition where the object itself is an attribute
 - Operator overloading syntax: `T & T::operator=(const T & t)`
 - Copy constructor syntax: `T::T(const T & t)`
 - In the .h file we just remove the `T::` prefix
